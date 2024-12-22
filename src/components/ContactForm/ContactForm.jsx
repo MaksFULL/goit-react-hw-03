@@ -16,7 +16,7 @@ const emptyValues = {
 };
 
 const ContactForm = ({handleSubmit}) => {
-    const id = useId();
+    const idName = useId();
     const idNumber = useId();
 
     return <Formik initialValues={emptyValues} onSubmit={handleSubmit} validationSchema={FeedbackSchema}>
